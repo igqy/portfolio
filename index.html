@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ignacio Quibilan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="scrolldown.js"></script>
+  </head>
+  <body>
+    <ul id="navbar">
+      <li class="navitem"><a href="#home">Home</a></li>
+      <li class="navitem"><a href="#about">About</a></li>
+      <li class="navitem"><a href="#projects">Projects</a></li>
+    </ul>
+    <hr id="home">
+    <center>
+    <div class="maintitlefont" style="background-color:HoneyDew;padding:15px;margin-top:46px;">
+      <h1>
+        Ignacio Quibilan
+      </h1>
+      <h4>
+        Goalkeeper, student, musician, and programmer.
+      </h4>
+    </div>
+    </center>
+    <hr id="about">
+    <div class="maintitlefont" style="background-color:HoneyDew;padding:20px;">
+      <h2>
+        About
+      </h2>
+      <br>
+      <p>
+        Ignacio Quibilan was born on September 29, 2002 in the Philippines. He soon moved to the USA in 2006.<br>
+        <br>
+        From Eagle Rock, he moved to South Pasadena in 2008. He now currently attends South Pasadena High School.<br>
+        <br>
+        This website is made by him for his Computer Science class to store his selected projects that he made over the year.
+      </p>
+    </div>
+    <hr id="projects">
+    <div class="maintitlefont" style="background-color:HoneyDew;padding:20px;">
+      <h2>
+        Projects
+      </h2>
+      <br>
+      <h3 style="text-decoration:underline;">
+        Websites
+      </h3>
+      <dl>
+        <dt><a style="text-align:center;color:black;" href="https://igqy.github.io/topfiveskins/index.html" target="_blank">Hobby Website</a></dt>
+          <dd>- This website was made for a demo of a navigation bar, and for the students in the class to make a website following their hobbies.</dd>
+          <br>
+        <dt><a style="text-align:center;color:black;" href="https://igqy.github.io/dreamvacation/dreamvac" target="_blank">Dream Vacation</a></dt>
+          <dd>- This website was made to show the student's dream vacation, listing places of where they want to go. It also demonstrates the use of the Google Map API.</dd>
+      </dl>
+      <br>
+      <h3 style="text-decoration:underline;">
+        BonsaiJS
+      </h3>
+      <dl>
+        <dt><img src="images/bonsai.png" alt="bonsai pic" height="400" width="400"></dt>
+        <dt><div style="background-color:#becbbe;padding:15px;width:500px;">
+          <code style="font-size:90%;">
+                  <p>var background = new Rect(1, 1, 2000, 2000);</p>
+                  <p>background.fill("black");</p>
+                  <p>background.addTo(stage);</p>
+                  <br>
+                  <p>var twentyonepilots = new Circle(300, 300, 250);</p>
+                  <p>twentyonepilots.stroke("white", 10);</p>
+                  <p>twentyonepilots.fill("black");</p>
+                  <p>twentyonepilots.addTo(stage);</p>
+                  <br>
+                  <p>var vertical = new Rect(200,180,10,250);</p>
+                  <p>vertical.fill("white");</p>
+                  <p>vertical.addTo(stage);</p>
+                  <br>
+                  <p>var horizontal = new Rect(250,290,50,10);</p>
+                  <p>horizontal.fill("white");</p>
+                  <p>horizontal.addTo(stage);</p>
+                  <br>
+                  <p>var tilted = new Path();</p>
+                  <p>tilted.fill("#f04937");</p>
+                  <p>tilted.moveTo(400,193);</p>
+                  <p>tilted.lineTo(390,190);</p>
+                  <p>tilted.lineTo(330,370);</p>
+                  <p>tilted.lineTo(340,373);</p>
+                  <p>tilted.addTo(stage);</p>
+          </code></div>
+      </dl>
+      <h3 style="text-decoration:underline;">
+        Scratch Projects
+      </h3>
+      <dl>
+        <dt><h4>Planetary Invasion</h4></dt>
+           <dd>- This Scratch Project was for the Scratch Story/Game. You play as an alien ship who is trying to destroy civilization. This is much like the retro game. Space Invaders.</dd>
+           <br>
+           <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/135534324/?autostart=false" frameborder="0" allowfullscreen></iframe>
+        <dt><h4>Helmet Man Minigames (Final Project)</h4></dt>
+           <dd>- This Scratch Project was for our final project. You play as Helmet Man, a man who has lost his helmet and his animal friends. Throughout the game, you complete a series of<br>
+             minigames to try to retrieve those lost items.</dd>
+            <br>
+           <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/161592653/?autostart=false" frameborder="0" allowfullscreen></iframe>
+      </dl>
+      <h3 style="text-decoration:underline;">
+        Python Projects
+      </h3>
+      <dl>
+        <dt><h4>Subconscious</dt></h4>
+        <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/Et4h/5"></iframe>
+      </dl>
+      <h3 style="text-decoration:underline;">
+        Image Artist
+      </h3>
+      <dl>
+        <dt><h4>Instagram Filter</dt></h4>
+        <img src="images/imageartist.png" width="640" height="360">
+        <dt><div style="background-color:#becbbe;padding:15px;width:500px;">
+          <code style="font-size:90%;">
+            <p>for row in range(0, height):</p>
+            <p>for column in range(0, width):</p>
+            <p>r,g,b = img[row][column] # collects the rgb value of the pixel</p>
+            <p>img[row][column] = [r*0.4+g*0.72+b*0.07] # grayscaled</p>
+            <br>
+            <p>rounded_mask = PIL.Image.new('RGBA', (width, height), (127,0,127,0))</p>
+            <p>drawing_layer = PIL.ImageDraw.Draw(rounded_mask)</p>
+            <br>
+            <p>drawing_layer.polygon([(0,0),(width,0),</p>
+            <p>(width, height), (0,height)],fill=(255,192,203,160))</p>
+          </code>
+        </dt>
+      </dl>
+    </div>
+  </body>
+</html>

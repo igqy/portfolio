@@ -1,0 +1,36 @@
+body {
+  background-color: #BDFFBD;
+}
+.maintitlefont {
+  font-family: Montserrat, sans-serif;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5e7f5e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+}
+.navitem {
+    float: left;
+}
+
+.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navitem a:hover:not(.active) {
+    background-color: #253325;
+}
+
+a.active {
+    background-color: #4CAF50;
+}
